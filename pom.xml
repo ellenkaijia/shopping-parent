@@ -550,7 +550,7 @@
 				<artifactId>zookeeper</artifactId>
 				<version>3.3.6</version>
 			</dependency>
-			
+
 			<!-- jboss -->
 			<dependency>
 				<groupId>org.jboss.resteasy</groupId>
@@ -588,7 +588,21 @@
 				<version>3.0.7.Final</version>
 			</dependency>
 			<!-- jboss end -->
-	
+
+			<!-- kryo -->
+			<dependency>
+				<groupId>com.esotericsoftware.kryo</groupId>
+				<artifactId>kryo</artifactId>
+				<version>2.16</version>
+			</dependency>
+
+			<dependency>
+				<groupId>de.javakaffee</groupId>
+				<artifactId>kryo-serializers</artifactId>
+				<version>0.41</version>
+			</dependency>
+
+
 		</dependencies>
 	</dependencyManagement>
 
